@@ -177,7 +177,7 @@ Container: kernel já existe → app inicia
 
 ### Stack real do Docker
 ```
-Docker CLI
+Docker CLIso muda completamente como você usa containers.
    ↓
 Docker Engine  
    ↓
@@ -195,5 +195,3 @@ Linux kernel (namespaces + cgroups)
 - **Container** = instância rodando da imagem
 
 ---
-
-> **Takeaway principal**: Container é um processo Linux isolado usando namespaces e cgroups. Docker apenas automatiza essa criação. Entender isso muda completamente como você usa containers.
